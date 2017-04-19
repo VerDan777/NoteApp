@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: #eaeaea;
+}
+h1 {
+    text-align: center;
+}
+
+#mount-point {
+    display: flex;
+    flex-direction: column;
+}
