@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "server":"babel-node server/app.js",
-    "webpack-devserver": "webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0"
+    "w": "webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0"
   },
   "author": {
     "name": "Daniil",
@@ -22,6 +22,7 @@
     "jquery": "*",
     "keymirror": "^0.1.1",
     "less": "^2.6.0",
+    "sass":"*",
     "mongoose": "*",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
